@@ -1,0 +1,8 @@
+The reason we encode text is that computers do not understand characters, words, or sentences; Computers can only process numbers, therefore, if we wish to teach computers to understand natural language then we ought to encode the textual data into a numeric format before inputting it into any machine.
+Therefore, text encoding may be defined as the process of converting text into meaningful numeric/vector representations. Within this process, we wish to preserve the context and dependencies between words and sentences so that the machine is capable of detecting patterns associated with the text as well as comprehending the context.
+There are various ways to encode text:
+One-Hot Encoding
+Index-based Encoding
+Bag of Words (BOW)
+Term Frequency — Inverse Document Frequency (TF-IDF)
+Word Embeddings
